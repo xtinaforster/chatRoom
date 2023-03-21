@@ -1,0 +1,33 @@
+body{
+  background: lightgray;
+  padding: 0 auto;
+}
+#messages {
+  list-style-type: none; margin: 20px 0 px; padding: 0;
+  border:solid black 4px;
+}
+
+#messages li:nth-child(odd){
+  background: lightgray;
+}
+
+#messages li:nth-child(even){
+  background: pink;
+
+}
+
+#message {
+  padding: 15px;
+  margin: 0px;
+}
+button {
+  background-color: pink;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  display: inline-block;
+}
+#messageSection{
+  position: fixed;
+  width: 100%;
+}
